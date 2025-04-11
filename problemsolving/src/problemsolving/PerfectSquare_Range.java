@@ -20,7 +20,7 @@ public class PerfectSquare_Range {
 		//Scanner sc=new Scanner(System.in);
 		//System.out.println("Enter number ");
 		//int n=sc.nextInt();
-		for(int i=6;i<=40;i++) {
+		for(int i=20;i<=40;i++) {
 			isPerfect(i);
 		}
 		
@@ -32,8 +32,7 @@ public class PerfectSquare_Range {
 		
 		
 		
-		
-		
+	
 		
 		//perfect Squar 
 //		for(int i=1;i<n;i++) {

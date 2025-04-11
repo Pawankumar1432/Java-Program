@@ -1,5 +1,7 @@
 package problemsolving;
 
+import java.util.Scanner;
+
 public class PerfectSquare_Range {
 
 	  static void isPerfect(int n) {
@@ -17,15 +19,15 @@ public class PerfectSquare_Range {
  		
 	}
 	public static void main(String[] args) {
-		//Scanner sc=new Scanner(System.in);
-		//System.out.println("Enter number ");
-		//int n=sc.nextInt();
-		for(int i=20;i<=40;i++) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number ");
+		int n=sc.nextInt();
+		for(int i=20;i<=n;i++) {
 			isPerfect(i);
 		}
 		
 		
-		
+		sc.close();
 		
 		
 		

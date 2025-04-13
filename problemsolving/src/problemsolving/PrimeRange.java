@@ -3,78 +3,29 @@ package problemsolving;
 public class PrimeRange {
 
 	public static boolean isPrime(int n) {
-		
-		int c=0;
-		for(int i=2;i<n;i++) {
-			if(i%2==0) {
-			c++;
+		 
+		for (int j = 2; j < n; j++) {
+			if (n % j == 0) {
+				return false;
 			}
 		}
-		if(c==0)
-		return true;else return false;
 		 
-		 
-	 
+			return true;
+
 	}
 
 	public static void main(String[] args) {
-
-		int n = 3;
+		int i = 150;
 		int c = 0;
-		
-		// System.out.println(isPrime(5));
-		
-		
-		for(int i=2;i<n;i++) {
-			if(i%2==0) {
-			c++;
+		while (true) {
+			if (isPrime(i)) {
+				c++;
+				System.out.print(i + " ");
 			}
+			if (c == 30)
+				break;
+			i++;
 		}
-		
-		if(isPrime()) {
-			System.out.println("Prime");
-		}
-		else {
-			System.out.println("Not a prime");
-		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		//System.out.println(isPrime(3));
-//		while (true) {
-//
-//			if (isPrime(n)==2) {
-//				  c++;
-// 			}
-//            
-//			if (c == 3) {
-//				break;
-//			}
-//			System.out.println(n);
-//
-//			n++;
-//			
-//		}
 
 	}
 

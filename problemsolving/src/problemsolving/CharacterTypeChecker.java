@@ -1,4 +1,5 @@
 package problemsolving;
+
 import java.util.Scanner;
 
 public class CharacterTypeChecker {

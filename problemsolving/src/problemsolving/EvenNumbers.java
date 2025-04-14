@@ -1,19 +1,18 @@
 package problemsolving;
 
-import java.util.Scanner;
-
 public class EvenNumbers {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		if(n%2==0) {
-			System.out.println(n+" is a even number");
+		// Print even numbers from 1 to 50
+		for (int i = 2; i <= 50; i += 2) {
+			System.out.println(i);
 		}
-		else {
-			System.out.println(n+" is a odd number");
-		}
-		sc.close();
 		
-	}
+		
+//		for (int i = 1; i <= 50; i++) {
+//		    if (i % 2 == 0) {
+//		        System.out.println(i);
+//		    }
+//		}
 
+	}
 }

@@ -10,16 +10,16 @@ public class EvenNumber {
 //				c++;
 //				System.out.println("Even number is : "+i);
 //			}
-			c++;
+			count++;
 
 			System.out.println("Even number is : "+i);
 
-			if(c==40) {
+			if(count==40) {
 				break;
 			}
 			i+=2;
 		}
-		System.out.println("Count is : "+c);
+		System.out.println("Count is : "+count);
 		
 		
 	}

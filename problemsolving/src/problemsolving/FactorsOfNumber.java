@@ -14,5 +14,6 @@ public class FactorsOfNumber {
                 System.out.println(i);
             }
         }
+        sc.close();
     }
 }

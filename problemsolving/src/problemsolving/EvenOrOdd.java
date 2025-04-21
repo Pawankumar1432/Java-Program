@@ -5,7 +5,7 @@ public class EvenOrOdd {
         if (a % 2 == 0) {  // Check for even numbers
             System.out.println(a + " is even number");
         } else {
-            System.out.println(a + " is odd number");
+            System.out.println(a + " is odd number ");
         }
     }
     

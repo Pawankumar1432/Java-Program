@@ -29,8 +29,12 @@ Sample Output:
 		System.out.println("Enter end : ");
 		int end=sc.nextInt();
 		int p1=0,p2=0;
-		for(int i=start;i<end-1;i++) {
-			 
+		for(int i=start;i<end;i++) {
+			if(isPrime(i))p1=i;
+			for(int j=i+1;j<end;j++) {
+				if(isPrime(j))p2=j;
+				System.out.print(p2+" ");
+			}
 			 
 			 
 		        

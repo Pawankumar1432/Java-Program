@@ -14,5 +14,7 @@ public class EvenOrOdd {
         evenOrOdd(37); // odd
         evenOrOdd(12); // even
         evenOrOdd(5);  // odd
+        evenOrOdd(0);  // even
+        evenOrOdd(-1); // odd   
     }
 }

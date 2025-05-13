@@ -29,7 +29,6 @@ public class Day8_1 {
 			}
 		}
 	}
-
 	public static boolean isPalindrome(int n) {
 		int n1=n;
  		 int rev=0;

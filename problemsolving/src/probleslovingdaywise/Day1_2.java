@@ -15,14 +15,20 @@ public static void main(String[] args) {
 	 * */
 int a=0;
 int b=1;
-int c=0;
+//int c=0;
 System.out.println("Fibonacci series up to 10 numbers : ");
 System.out.print(a+" ");
-for(int i=2;i<=10;i++) {
+//for(int i=2;i<=10;i++) {
+while(true) {
+	int c=a+b;
+	if(c<=999) {
+		System.out.print(c+" ");
+	}else {
+		break;
+	}
 	a=b;
 	b=c;
-	c=a+b;
-	System.out.print(c+" ");
+	
 }
 }
 }

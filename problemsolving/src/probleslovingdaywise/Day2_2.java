@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	/*
 	 * 
 	 * Question 2: Reverse a Number
-	 * Problem Statement:
+	 * Problem Statement
 	 * Write a Java program to reverse the digits of a given number.
 	 * Sample Input:  
 	 * Enter a number: 12345

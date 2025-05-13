@@ -22,6 +22,7 @@ public class Day5_2 {
 		int start = sc.nextInt();
 		System.out.println("Enter the end number : ");
 		int end = sc.nextInt();
+		sc.close();
 		for (int i = start; i < end; i++) {
 			if (isEvenNumber(i)) {
 				if (i != end - 1)

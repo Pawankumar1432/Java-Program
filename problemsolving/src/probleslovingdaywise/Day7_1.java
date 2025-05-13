@@ -24,6 +24,7 @@ public class Day7_1 {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the range N");
 		int n=sc.nextInt();
+		sc.close();
 		for(int i=1;i<=n;i++) {
 			if(isPrime(i)) {
 				System.out.print(i+" ");

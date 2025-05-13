@@ -12,9 +12,7 @@ public class Day7_2 {
 	 * Explanation: A number N is called a Sunny number if N + 1 is a perfect
 	 * square. For example: 8 → 8 + 1 = 9 → √9 = 3 → Sunny number 10 → 10 + 1 = 11 →
 	 * not a perfect square → Not Sunny
-	 * 
 	 * Sample Input: Enter number: 8
-	 * 
 	 * Sample Output: 8 is a Sunny number.
 	 */
 	public static void main(String[] args) {

@@ -10,7 +10,7 @@ public class Day9_1 {
 	 * 
 	 * Problem Statement: Write a Java program to find the sum of even digits and
 	 * odd digits in a given number. Based on the comparison of these two sums,
-	 * perform different checks:
+	 * perform different checks
 	 * 
 	 * Case 1: If the even digit sum is greater, check whether the given number is a
 	 * prime number.

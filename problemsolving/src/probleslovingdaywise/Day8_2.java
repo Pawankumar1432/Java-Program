@@ -9,7 +9,6 @@ public class Day8_2 {
 	 * 
 	 * Problem Statement: Write a Java program to check if a number is a Neon
 	 * number.
-	 * 
 	 * Explanation: A number is a Neon number if the sum of digits of its square is
 	 * equal to the number itself. For example:
 	 * 

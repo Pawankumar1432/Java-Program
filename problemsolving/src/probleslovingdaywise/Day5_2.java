@@ -13,7 +13,6 @@ public class Day5_2 {
 	 * are 5, 7, 9 → no even digits → not valid.
 	 * 
 	 * Sample Input: Enter start: 20 Enter end: 35
-	 * 
 	 * Sample Output: 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 34
 	 */
 	public static void main(String[] args) {

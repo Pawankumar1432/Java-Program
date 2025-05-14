@@ -10,7 +10,7 @@ public class Day4_2 {
 		 * Problem Statement: Write a Java program to find and display twin prime pairs
 		 * in a given range.
 		 * 
-		 * Twin Primes are pairs of prime numbers that differ by 2 (e.g., 3 and 5, 11
+		 * Twin pimes are pairs of prime numbers that differ by 2 (e.g., 3 and 5, 11
 		 * and 13, etc.)
 		 * 
 		 * Sample Input: Enter start: 1 Enter end: 30

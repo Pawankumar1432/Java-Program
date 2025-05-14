@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Day6_2 {
 	/*
-	 * Question 2: Check if a Number is an Armstrong Number
-	 * 
+	 * Question 2: 
+	 * Check if a Number is an Armstrong Number
 	 * Problem Statement: Write a Java program to accept one number from the user
 	 * and check whether it is an
 	 * 

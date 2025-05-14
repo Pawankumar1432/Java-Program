@@ -8,7 +8,7 @@ public class Day3_2 {
 		 * Question 2: Count Even and Odd Digits
            Problem Statement:
         Write a Java program that takes an integer and counts how many even and odd digits it has.
-        Sample Input 
+        Sample Input: 
         Enter a number: 123456
         Sample Output:
         Even digits: 3  

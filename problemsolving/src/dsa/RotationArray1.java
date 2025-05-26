@@ -17,6 +17,9 @@ public class RotationArray1 {
 		//int[]a= {22,33,44,55,66,77,88};
 		int []a1={22,33,44,55,66,77,88};
 		int []b1={22,33,44,55,66,77,88};
+//		int []a1={1,1,1,1,1,1,1};
+//		int []b1={1,1,1,1,1,1,1};
+		
 		for(int i=0;i<2;i++) {
 			
 			int first=a1[0];
@@ -37,7 +40,19 @@ public class RotationArray1 {
 			 
 		}
 		System.out.println(Arrays.toString(b1));
-
+        boolean status=true;
+		for(int i=0;i<a1.length;i++) {
+			if(a1[i]!=b1[i]) {
+				status=false;
+			}
+		}
+		if(status) {
+			System.out.println("both Arrays are equal ");
+		}else {
+			System.out.println("Both Arrays Are not equal");
+		}
+		
+		
 	}
 
 }

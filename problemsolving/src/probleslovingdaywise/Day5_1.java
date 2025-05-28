@@ -33,6 +33,7 @@ public class Day5_1 {
 				}
 			}
 		}
+		sc.close();
 	}
 
 	private static boolean isDigitSum(int i) {

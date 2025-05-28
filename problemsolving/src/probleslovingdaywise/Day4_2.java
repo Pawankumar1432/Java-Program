@@ -31,7 +31,7 @@ public class Day4_2 {
 			if (j == 0)
 				System.out.println();
 		}
-
+		sc.close();
 	}
 
 	private static boolean isPrime(int n) {

@@ -25,7 +25,9 @@ public static void main(String[] args) {
 		int start=sc.nextInt();
 		int end=sc.nextInt();
 		
-		
+		if(start==0) {
+			System.out.println(prefix[end]);
+		}else
 		System.out.println(prefix[end]-prefix[start-1]);
 	}
 	
